@@ -8,7 +8,7 @@ contract EmployeeStorage {
     uint256 public idNumber; // Unique identification number of the employee (publicly accessible)
     string public name; // Name of the employee (publicly accessible)
 
-    // Constructor to initialize employee data when contract is deployed
+    // Constructor to initialize employee data when contract is deployed xx
     constructor(uint16 _shares, string memory _name, uint32 _salary, uint _idNumber) {
         shares = _shares; // Initialize shares
         name = _name; // Initialize name
